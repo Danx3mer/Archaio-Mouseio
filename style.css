@@ -3,12 +3,65 @@ body, html {
   margin: 0;
 }
 
-.bg {
+.topTitleText {
+  /*Setting the position of the text to be in the middle*/
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titleText {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: absolute; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: wrap;
+  padding: 20px;
+  text-align: center;
+}
+
+.museumImg {
   /* The image used */
   background-image: url("museum.jpeg");
 
   /* Full height */
   height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whiteExhibit {
+  /* The image used */
+  background-color: rgb(161, 161, 161);
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackExhibit {
+  /* The image used */
+  background-color: #005380;
+
+  /* Full height */
+  height: 50%; 
 
   /* Center and scale the image nicely */
   background-position: center;
