@@ -61,7 +61,7 @@ body, html {
   background-color: #005380;
 
   /* 3/4 height */
-  height: 75; 
+  height: 75%; 
 
   /* Center and scale the image nicely */
   background-position: center;
