@@ -47,8 +47,8 @@ body, html {
   /* The image used */
   background-color: rgb(161, 161, 161);
 
-  /* Full height */
-  height: 50%; 
+  /* 3/4 height */
+  height: 75%; 
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -56,12 +56,12 @@ body, html {
   background-size: cover;
 }
 
-.blackExhibit {
+.grayExhibit {
   /* The image used */
   background-color: #005380;
 
-  /* Full height */
-  height: 50%; 
+  /* 3/4 height */
+  height: 75; 
 
   /* Center and scale the image nicely */
   background-position: center;
