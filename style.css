@@ -44,10 +44,8 @@ body, html {
 }
 
 .exhibitImg {
+  padding: 10px;
   position: absolute; /* Stay fixed */
-  top: 50%;
-  left: 5%;
-  transform: translate(-50%, -50%);
 }
 
 .blueExhibit {
