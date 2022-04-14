@@ -43,6 +43,13 @@ body, html {
   background-size: cover;
 }
 
+.exhibitImg {
+  position: absolute; /* Stay fixed */
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
 .blueExhibit {
   /* The image used */
   background-color: rgb(161, 161, 161);
