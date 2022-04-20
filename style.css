@@ -3,7 +3,7 @@ body, html {
   margin: 0;
 }
 
-.topTitleText {
+#topTitleText {
   /*Setting the position of the text to be in the middle*/
   color: white;
   font-size: 60px;
@@ -13,7 +13,7 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-.titleText {
+#titleText {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
@@ -30,7 +30,7 @@ body, html {
   text-align: center;
 }
 
-.museumImg {
+#museumImg {
   /* The image used */
   background-image: url("museum.jpeg");
 
@@ -43,33 +43,52 @@ body, html {
   background-size: cover;
 }
 
-.exhibitImg {
-  padding: 10px;
-  position: absolute; /* Stay fixed */
+.exhibitImgL {
+  height: 50%; 
+  width: 30%; 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3%;
 }
 
-.blueExhibit {
+.exhibitTextL {
+  margin-top: 8%;
+  margin-Left: 15%;
+  height: fit-content;
+}
+
+.exhibitImgR {
+  height: 50%; 
+  width: 30%; 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30%;
+}
+
+.exhibitTextR {
+  margin-top: 8%;
+  margin-left: 30%;
+  height: fit-content;
+}
+
+.grayExhibit {
   /* The image used */
   background-color: rgb(161, 161, 161);
 
   /* 3/4 height */
   height: 75%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* Center and scale the image inside nicely */
+  display: flex;
 }
 
-.grayExhibit {
+.blueExhibit {
   /* The image used */
   background-color: #005380;
 
   /* 3/4 height */
   height: 75%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* Center and scale the image inside nicely */
+  display: flex;
 }
