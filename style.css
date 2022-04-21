@@ -52,9 +52,11 @@ body, html {
 }
 
 .exhibitTextL {
-  margin-top: 8%;
+  color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-Left: 15%;
-  height: fit-content;
+  width: 35%;
 }
 
 .exhibitImgR {
@@ -62,13 +64,14 @@ body, html {
   width: 30%; 
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 .exhibitTextR {
-  margin-top: 8%;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: 30%;
-  height: fit-content;
+  width: 35%;
 }
 
 .grayExhibit {
@@ -91,4 +94,15 @@ body, html {
 
   /* Center and scale the image inside nicely */
   display: flex;
+}
+
+.creditsText{
+  color: aliceblue;
+  padding: 10px;
+}
+
+#credits {
+  background-color: black;
+  text-align: center;
+  height: fit-content;
 }
