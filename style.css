@@ -55,8 +55,8 @@ body, html {
   color: aliceblue;
   margin-top: auto;
   margin-bottom: auto;
-  margin-Left: 15%;
-  width: 35%;
+  margin-Left: 10%;
+  width: 40%;
 }
 
 .exhibitImgR {
@@ -70,8 +70,8 @@ body, html {
 .exhibitTextR {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 30%;
-  width: 35%;
+  margin-left: 25%;
+  width: 40%;
 }
 
 .grayExhibit {
@@ -106,3 +106,4 @@ body, html {
   text-align: center;
   height: fit-content;
 }
+
