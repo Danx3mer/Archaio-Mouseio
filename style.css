@@ -79,7 +79,7 @@ body, html {
   background-color: rgb(161, 161, 161);
 
   /* 3/4 height */
-  height: 75%; 
+  height: 90%; 
 
   /* Center and scale the image inside nicely */
   display: flex;
@@ -90,7 +90,7 @@ body, html {
   background-color: #005380;
 
   /* 3/4 height */
-  height: 75%; 
+  height: 90%; 
 
   /* Center and scale the image inside nicely */
   display: flex;
