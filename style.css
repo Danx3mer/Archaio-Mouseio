@@ -101,7 +101,7 @@ body, html {
   padding: 10px;
 }
 
-#credits {
+.sectionDivider {
   background-color: black;
   text-align: center;
   height: fit-content;
