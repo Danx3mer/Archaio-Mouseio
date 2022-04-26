@@ -3,6 +3,14 @@ body, html {
   margin: 0;
 }
 
+ul{
+  list-style-position: inside;
+}
+
+li{
+  padding: 3px;
+}
+
 #topTitleText {
   /*Setting the position of the text to be in the middle*/
   color: white;
@@ -49,6 +57,7 @@ body, html {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3%;
+  margin-right: 0%;
 }
 
 .exhibitTextL {
@@ -56,6 +65,7 @@ body, html {
   margin-top: auto;
   margin-bottom: auto;
   margin-Left: 10%;
+  margin-right: 0%;
   width: 40%;
 }
 
@@ -101,9 +111,72 @@ body, html {
   padding: 10px;
 }
 
+.sectionTextTopMargin{
+  color: aliceblue;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.sectionContentText{
+  color: aliceblue;
+  padding: 10px;
+  margin: 0px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionTableContentText{
+  color: aliceblue;
+  padding: 10px;
+  margin: 0px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .sectionDivider {
+  margin: 0px;
+  background-color: rgb(34, 86, 159);
+  text-align: center;
+  height: fit-content;
+}
+
+.sectionContentDivider {
+  margin: 0px;
+  background-color: rgb(39, 100, 184);
+  text-align: center;
+  height: fit-content;
+  display: flex;
+}
+
+.sectionContentDividerAlt {
+  margin: 0px;
+  background-color: rgb(28, 82, 157);
+  text-align: center;
+  height: fit-content;
+  display: flex;
+}
+
+#credits {
+  margin: 0px;
   background-color: black;
   text-align: center;
   height: fit-content;
 }
 
+.godImageL {
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 50%;
+  width: 25%;
+}
+
+.godImageR {
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 50%;
+  width: 25%;
+}
